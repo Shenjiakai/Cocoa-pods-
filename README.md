@@ -2,19 +2,19 @@
 Cocoa pods的安装及使用 ，步骤详解
 
 ## 一. 使用rvm 更新 ruby 
- 1.先查看当前的版本
+# 1.先查看当前的版本
      ruby -v 
-2.查看能使用的ruby版本 ruby 
+#2.查看能使用的ruby版本 ruby 
     rvm list known
-3.  使用rvm 更新ruby 
+#3.  使用rvm 更新ruby 
     http://blog.csdn.net/lissdy/article/details/9191351
 
 备注：
-1.    终端输入如下命令（把Ruby镜像指向taobao，避免被墙，你懂得）
+#1.    终端输入如下命令（把Ruby镜像指向taobao，避免被墙，你懂得）
     gem sources --remove https://rubygems.org/ 
     gem sources -a http://rubygems-china.oss.aliyuncs.com
     gem sources -l （用来检查使用替换镜像位置成功）)
-2. 报错 
+#2. 报错 
     1.Requirements installation failed with status: 1. 
       解决方法 ：敲命令： rvm autolibs disable   
     （原文链接：http://619060342.iteye.com/blog/2185070）
@@ -49,8 +49,8 @@ fatal: unpack-objects failed
 
 
 ##四.  使用cocoa pods 
-1..   cd 项目目录
-2..   pod init  // 创建profile文件
-3..   pod search 需要安装的第三方框架
-4..   pod install --no-repo-update    // 第一次安装的时候是用install 
-5..   pod update --no-repo-update  // 后面再装第三方框架是用update
+#1..   cd 项目目录
+#2..   pod init  // 创建profile文件
+#3..   pod search 需要安装的第三方框架
+#4..   pod install --no-repo-update    // 第一次安装的时候是用install 
+#5..   pod update --no-repo-update  // 后面再装第三方框架是用update
