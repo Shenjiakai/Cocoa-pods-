@@ -1,6 +1,7 @@
 # Cocoa-pods-
 Cocoa pods的安装及使用 ，步骤详解
-一. 使用rvm 更新 ruby 
+
+## 一. 使用rvm 更新 ruby 
  1.先查看当前的版本
      ruby -v 
 2.查看能使用的ruby版本 ruby 
@@ -20,7 +21,7 @@ Cocoa pods的安装及使用 ，步骤详解
    
 
 
-二. 安装cocoa pods
+##二. 安装cocoa pods
         敲命令： sudo gem install cocoapods
 
 备注：
@@ -32,7 +33,7 @@ Cocoa pods的安装及使用 ，步骤详解
 
 
   
-三. pod search 需要安装的第三方框架  
+##三. pod search 需要安装的第三方框架  
     出现 Setting up CocoaPods master repo 然后之后一直等
 
     有可能会报错：
@@ -47,7 +48,7 @@ fatal: unpack-objects failed
 
 
 
-四.  使用cocoa pods 
+##四.  使用cocoa pods 
 1..   cd 项目目录
 2..   pod init  // 创建profile文件
 3..   pod search 需要安装的第三方框架
